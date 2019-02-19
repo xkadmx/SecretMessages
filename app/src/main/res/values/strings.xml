@@ -2,4 +2,8 @@
     <string name="app_name">SecretMessages</string>
     <string name="action_settings">Settings</string>
     <string name="my_secret_messages_app">My secret Messages App</string>
+    <string name="secret_messages_n_are_so_cool_n_aren_t_they">Secret messages   are so cool,   aren\'t they?</string>
+    <string name="key">Key:</string>
+    <string name="_13">13</string>
+    <string name="encode_decode">Encode/Decode</string>
 </resources>
