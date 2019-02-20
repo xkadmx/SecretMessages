@@ -11,11 +11,12 @@ import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.SeekBar;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    EditText txtIn;
-    EditText txttKey;
-    EditText txtOut;
+    TextView txtIn;
+    TextView txtKey;
+    TextView txtOut;
     SeekBar sb;
     Button btn;
 
@@ -26,6 +27,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        txtIn = (TextView) findViewById(R.id.txtIn);
+        txtKey = (TextView) findViewById(R.id.txtKey);
+        txtOut = (TextView) findViewById(R.id.txtOut);
+        sb = (SeekBar) findViewById(R.id.sb);
+        btn = (Button) findViewById(R.id.btn);
 
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
