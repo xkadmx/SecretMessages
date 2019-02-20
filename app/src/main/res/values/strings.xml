@@ -6,4 +6,5 @@
     <string name="key">Key:</string>
     <string name="_13">13</string>
     <string name="encode_decode">Encode/Decode</string>
+    <string name="and_here_comes_the_output">And here comes the output!</string>
 </resources>
