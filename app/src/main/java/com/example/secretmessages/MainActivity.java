@@ -9,9 +9,9 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
-import android.widget.EditText;
-import android.widget.SeekBar;
 import android.widget.TextView;
+import android.widget.SeekBar;
+import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
     TextView txtIn;
