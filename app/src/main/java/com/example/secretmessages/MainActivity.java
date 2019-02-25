@@ -1,5 +1,6 @@
 package com.example.secretmessages;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -14,9 +15,9 @@ import android.widget.SeekBar;
 import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
-    TextView txtIn;
-    TextView txtKey;
-    TextView txtOut;
+    EditText txtIn;
+    EditText txtKey;
+    EditText txtOut;
     SeekBar sb;
     Button btn;
 
@@ -53,15 +54,15 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    @Override
+    @SuppressLint("WrongViewCast") @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        txtIn = (TextView) findViewById(R.id.txtIn);
-        txtKey = (TextView) findViewById(R.id.txtKey);
-        txtOut = (TextView) findViewById(R.id.txtOut);
+        txtIn = (EditText) findViewById(R.id.txtIn);
+        txtKey = (EditText) findViewById(R.id.txtKey);
+        txtOut = (EditText) findViewById(R.id.txtOut);
         sb = (SeekBar) findViewById(R.id.sb);
         btn = (Button) findViewById(R.id.btn);
 
